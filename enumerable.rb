@@ -181,7 +181,6 @@ module Enumerable
 end
 
 
-
 [1, 2, 3, 4].my_each {|n| p n}
 {a: 1, b: 0, c: -3, d: 5}.my_each {|k, v| p "#{k}, #{v}"}
 [1, 2, 3, 4].my_each_with_index {|n, i| p "#{n}, #{i}"}
